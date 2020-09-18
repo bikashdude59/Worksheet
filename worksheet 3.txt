@@ -1,0 +1,44 @@
+1. Give short description each of Linear, RBF, Polynomial kernels used in SVM.
+
+Ans:- SVM is a supervised machine learning algorithm which can be used for both classification or regression challenges.
+in SVM there are 3 techniques we used to improve the learning the model.
+
+Linear- In linear SVM data is separated by using a single line.
+
+rbf- rbf is used when the data boundaries are hypothesized to be curve-shaped. It has two main parameter i.e Gamma and C
+
+polynomial-
+
+2 ans:- R squared is better to use because it shows the proportion of the variance of data of model where as 
+ RSS is sum of squared distannce between predicted and actual values.
+
+3 ans:- Dont know the answer
+
+
+4 ans :- Gini impurity is used when we randmoly choose any data and how much or peobability of that data is wrong 
+         classified.Its values lies between 0 and 1.
+
+5.
+
+6.
+
+
+7. Ans :- in bagging same type of predictions are combined but in boosting different types of predictions are combined.
+
+8 Ans:- Don't know
+
+9:- There is a parameter in cross validation is K fold. We use K fold to shuffle the data  randomly and splits
+    teh dataset into K groups. Usually we choose K =5. 
+10:- Dont know the answer.
+
+11. Don't know the answer.
+
+12.dont know the answer
+
+13.don't know the answer
+
+14. Adaboost increases the accuracy by giving more weightage to the target which is misclassified by the model.
+    gradient boosting increases the accuracy by minimizing the Loss.
+
+15:- we can not use  Logistic Regression for classification of Non-Linear Data because we worked for data for two output
+     either yes or no. Only logic output is used in logistic output. 
