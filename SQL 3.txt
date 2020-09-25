@@ -1,0 +1,60 @@
+1 ans :- 
+
+Create table customers(
+customerNumber int,
+customerName varchar(10),
+contactLastName Varchar(10),
+contactFirstName varchar(10),
+phone int,
+addressLine1 varchar(225),
+addressLine2 varchar(225),
+city varchar(10),
+state varchar(10),
+postalcode int,
+countrt varchar(10),
+salesRepEmployeeNumber int,
+creditLimit int);
+
+2 ans:-
+
+Create table orders(
+orderNumber int,
+orderDate  date format 'dd.mm.yyyy',
+requiredDate date format 'dd.mm.yyyy',
+cshippedDate date format 'dd.mm.yyyy',,
+status varchar(10),
+comments varchar(225),
+customerNumber int);
+
+3 ans:-  
+
+SELECT * FROM orders;
+
+4 ans: 
+
+SELECT comments from orders;
+
+5 ans:- 
+
+SELECT order_date_date, SUM(total no of orders)
+  FROM orders
+ GROUP BY order_date_date
+
+6. SELECT employeNumber, lastName, firstName FROM employee.
+
+7 ans :- 
+
+SELECT a.orderNumber, b.customerName from order a INNER JOIN customers b ON a.customerNumber=b.customerNumber
+
+8ans:- 
+
+SELECT concat (customerName, salerepemployee) as column 3 from customers
+
+9 ans:- dont know
+
+10 ans:- 
+
+Select productName, MSRP, productDescription from products.
+
+11 ans:- 
+
