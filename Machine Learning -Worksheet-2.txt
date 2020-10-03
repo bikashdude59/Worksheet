@@ -1,0 +1,24 @@
+1----b
+2....a
+3...b
+4...a
+5...b
+6..a,b
+7...a,d
+8..b
+9..b
+11--- Lasso regression tries to reduce those features which are not very important.
+      Ridge Regression tries to reduce internally coefficient values.
+
+14.. we can check RMSE, R squared or adjusted R2 squared
+
+15...
+
+accuracy== (1000+50)/2500 = 0.42
+
+precision= tp/tp+fp= 1000/1250=0.80
+
+specificity= 50/1450=0.03
+
+recall= 1000/2200= 0.45
+
