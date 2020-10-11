@@ -1,0 +1,13 @@
+1---A
+2--D
+3...A
+4---C
+5---C
+6---DONT KNOW
+7---C
+8---B
+
+10- In radom forest, multiples tress are there in random forest and they are actually more accurate than a single Tree.
+15-The fit() function calculates the values of these parameters.
+   The transform function applies the values of the parameters on the actual data and gives the normalized value. 
+   The fit_transform() function performs both in the same step
